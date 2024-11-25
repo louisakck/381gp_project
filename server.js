@@ -26,7 +26,7 @@ mongoose
   var facebookAuth = {
     'clientID' : '925215255638065', // facebook App ID
     'clientSecret' : 'e42f547031fac5a651fdaf563d175bfd', // facebook App Secret
-    'callbackURL' : 'http://localhost:8080/auth/facebook/callback'
+    'callbackURL' : 'https://three81project-27.onrender.com/auth/facebook/callback'
   };
   
   passport.serializeUser((user, done) => {
