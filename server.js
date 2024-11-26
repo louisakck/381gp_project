@@ -239,6 +239,9 @@ app.get('/delete/:id', (req, res) => {
   res.redirect('/');
 });
 
+app.get('/readme', (req, res) => {
+  res.status(200).render('readme', {});
+});
 
 //RestfulAPI
 //curl -X GET http://localhost:8080/api/list
