@@ -87,7 +87,6 @@ This project is a web application for managing nutrition information. It allows 
     - details.ejs
     - homepages.ejs
     - login.ejs
-    - readme.ejs
 - models
     - nutrition.js
 
