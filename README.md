@@ -1,6 +1,12 @@
-# 381 Project
+# COMPS381F Group Project(2024 Autumn Term)
+**Nutrition Database Web application**
 
 This project is a web application for managing nutrition information. It allows users to create, read, update, and delete nutrition data. The application uses Node.js, Express, MongoDB, and EJS for templating.
+
+## Group Members (Group 27)
+- Chang Yiu Hei (12782440 )
+- Kong Cho Kiu Louisa (12756783)
+- Guan Wai Nam (12894713 )
 
 ## Features
 
@@ -10,6 +16,8 @@ This project is a web application for managing nutrition information. It allows 
 - User login and logout
 
 ## Installation
+
+### Access the web application via local host:
 
 1. Clone the repository:
     ```bash
@@ -26,7 +34,15 @@ This project is a web application for managing nutrition information. It allows 
     npm start
     ```
 
-4. Open your browser and navigate to `https://three81project-27.onrender.com`.
+4. Open your browser and navigate to `http://localhost:8080/`.
+
+***Note: OAUTH function of login via facebook will be unavailable for localhost access***
+
+
+### Access via cloud URL:
+
+1. Open your browser and navigate to `https://three81project-27.onrender.com`.
+
 
 ## Usage
 
@@ -64,6 +80,16 @@ This project is a web application for managing nutrition information. It allows 
 **replace the id part with the created record id**
 
 ## File Structure
+- server.js
+- package.json
+- views
+    - change.ejs
+    - details.ejs
+    - homepages.ejs
+    - login.ejs
+    - readme.ejs
+- models
+    - nutrition.js
 
 - `server.js` - Main server file.
 - `models/nutrition.js` - Mongoose schema for nutrition data.
