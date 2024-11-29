@@ -49,7 +49,8 @@ This project is a web application for managing nutrition information. It allows 
 ### Authentication
 
 - Login with your username and password or use Facebook authentication.
-- name: 'admin', password: 'Iamadmin'
+- name: `admin`, password: `Iamadmin`
+- name: `userabc`, password: `abc`
 
 ### Nutrition Management
 
@@ -75,7 +76,7 @@ This project is a web application for managing nutrition information. It allows 
 - curl -X PUT -H "Content-Type: application/json" --data '{"name": "french fries" , "calories": "300", "protein": "10", "total_fat": "50", "sodium": "200"}' https://three81project-27.onrender.com/api/update/**id**
 
 ### Delete
-- curl -X DELETE https://three81project-27.onrender.com//api/delete/**id**
+- curl -X DELETE https://three81project-27.onrender.com/api/delete/**id**
 
 **replace the id part with the created record id**
 
